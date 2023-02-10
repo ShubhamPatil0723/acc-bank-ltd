@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const requiredVars = ["PORT", "NODE_ENV", "BASE_ROUTE", "SEQUELIZE_CONNECTION"];
+const requiredVars = ["PORT", "NODE_ENV", "BASE_ROUTE"];
 const unusedEnvVar = requiredVars.filter((variable) => !process.env[variable]);
 
 if (unusedEnvVar.length) {
