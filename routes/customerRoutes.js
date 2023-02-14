@@ -35,4 +35,4 @@ customerRouter.put(
 //getAllCustomer
 customerRouter.get("/adminn", Controllers.GetCUstomerDetails);
 
-export default customerRouter;
+export { customerRouter };
