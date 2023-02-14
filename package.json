@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/ShubhamPatil0723/acc-bank-ltd/issues"
   },
-  "homepage": "https://github.com/ShubhamPatil0723/acc-bank-ltd#readme"
+  "homepage": "https://github.com/ShubhamPatil0723/acc-bank-ltd#readme",
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  }
 }
