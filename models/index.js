@@ -1,10 +1,6 @@
 import { Sequelize, DataTypes } from "sequelize";
 import { cdbConfig } from "../config/customerDbConfig.js";
-import {
-  AccountType,
-  CustomerDetails,
-} from "./customerControl/customerModel.js";
-import { generateModel } from "./generateModels.js";
+import { generateModels } from "./generateModels.js";
 
 const env = process.argv[2];
 const sequelize = new Sequelize(
@@ -30,14 +26,6 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-//db.users = User(sequelize, DataTypes); for user db
-// db.custdetail = CustomerDetails(sequelize, DataTypes); //for Customer details
-// db.accounttype = AccountType(sequelize, DataTypes); //for account type ID
-
-db.models = generateModel(sequelize, DataTypes);
-
-db.sequelize.sync({ force: false }).then(() => {
-  console.log("resync");
-});
+db.models = generateModels(sequelize, DataTypes);
 
 export default db;
