@@ -3,7 +3,6 @@ import * as Router from "./routes/index.js";
 import { sequelizeConnect } from "./config/sequelizeConfig.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 const { PORT, SEQUELIZE_CONNECTION, BASE_ROUTE } = process.env;
-import { sequelizeConnect } from "./config/sequelizeConfig.js";
 
 const app = new express();
 
