@@ -1,21 +1,29 @@
-import express from "express";
-// import { Router } from "./routes/index.js";
-// import { sequelizeConnect } from "./config/seqeulizeConfig.js";
+import express from 'express'
+import {json, urlencoded } from 'express'
+import cors from 'cors'
+import {router} from './routes/router.js'
 
-const { PORT, SEQUELIZE_CONNECTION } = process.env;
-const app = new express();
+//import cors from 'cors';
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+const app = express()
 
-// app.use("/", Router);
+// middleware
 
-// if (SEQUELIZE_CONNECTION === "Y") {
-//   sequelizeConnect();
-// }
+app.use(json())
+
+app.use(urlencoded({ extended: true }))
+
+
+// routers
+app.use('/user', router)
+
+
+//port
+
+const PORT = process.env.PORT || 8080
+
+//server
 
 app.listen(PORT, () => {
-  console.log(`Listening at ${PORT}`);
-});
-
-export { app };
+    console.log(`server is running on port ${PORT}`)
+})
