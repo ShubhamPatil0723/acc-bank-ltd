@@ -11,9 +11,9 @@ const customerRouter = express.Router();
 
 //for users
 // postCustomer
-customerRouter.post("/formFill", Controllers.postCustomerDetails);
+customerRouter.post("/customerDetails/formFill", Controllers.postCustomerDetails);
 //getCustomer with ID
-customerRouter.get("/cust/:an", Controllers.getCUstomerDetailsByAccountNummber);
+customerRouter.get("/customerDetails/:an", Controllers.getCUstomerDetailsByAccountNummber);
 
 //for admin
 
