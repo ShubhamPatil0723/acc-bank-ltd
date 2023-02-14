@@ -1,0 +1,8 @@
+Hello, this is a today's report file. 
+                 __________________________________________________________________________________
+                 today newly join customers total is 2 are = [{"id":112,"customer_id":102,"fullname":"ritu mehta","age":25,"genderID":1,"createdAt":"2023-02-14T00:00:00.000Z","updatedAt":"2023-02-14T00:00:00.000Z"},{"id":113,"customer_id":103,"fullname":"nehal ishu","age":25,"genderID":2,"createdAt":"2023-02-14T00:00:00.000Z","updatedAt":"2023-02-14T00:00:00.000Z"}] ,
+                 _________________________________________________________________
+                 newly updated Customers total is undefined are = [{"id":111,"customer_id":101,"fullname":"tanu pawar","age":23,"genderID":1,"createdAt":"2023-02-13T00:00:00.000Z","updatedAt":"2023-02-14T00:00:00.000Z"},{"id":112,"customer_id":102,"fullname":"ritu mehta","age":25,"genderID":1,"createdAt":"2023-02-14T00:00:00.000Z","updatedAt":"2023-02-14T00:00:00.000Z"},{"id":113,"customer_id":103,"fullname":"nehal ishu","age":25,"genderID":2,"createdAt":"2023-02-14T00:00:00.000Z","updatedAt":"2023-02-14T00:00:00.000Z"}],
+                 _________________________________________________________________
+                 total amount transaction in bank = 7000 
+                 __________________________________________________________________
