@@ -10,5 +10,15 @@ export const generateModels = (sequelize, DataTypes) => {
 
   models.custdetail.hasOne(models.accounttype, { foreignKey: "id" });
   models.accounttype.belongsTo(models.custdetail, { foreignKey: "id" });
+
+  models.custdetail.hasMany(models.Transactions, {
+    foreignKey: 'id'
+    
+})
+
+models.Transactions.belongsTo(models.custdetail, {
+    foreignKey: 'id'
+   
+})
   return models;
 };

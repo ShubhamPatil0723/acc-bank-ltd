@@ -51,8 +51,9 @@ export const postCustomerDetails = async (req, res) => {
     }
     //MERGE
   } catch (error) {
-    return res.status(400).json({ error });
-    logger.error("Error in PostCustomerDetails");
+        logger.error("Error in PostCustomerDetails");
+
+    return res.status(400).json(error);
   }
 };
 

@@ -28,4 +28,14 @@ db.sequelize = sequelize;
 
 db.models = generateModels(sequelize, DataTypes);
 
+// db.customers.hasMany(db.Transaction, {
+//     foreignKey: 'customer_id'
+    
+// })
+
+// db.Transaction.belongsTo(db.customers, {
+//     foreignKey: 'customer_id'
+   
+// })
+
 export default db;
