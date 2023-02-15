@@ -2,7 +2,7 @@ import model from "../models/index.js";
 export const sequelizeConnect = () => {
   model.sequelize
     .sync({
-      alter: true
+      //alter: true
     })
     .then(() => {
       console.log("MYSQL BOOTSTRAP :: SUCCESS");

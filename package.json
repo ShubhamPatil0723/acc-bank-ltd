@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/ShubhamPatil0723/acc-bank-ltd#readme",
   "dependencies": {
-    "nodemailer": "^6.9.1"
+    "nodemailer": "^6.9.1",
+    "pdfkit": "^0.13.0"
   }
 }

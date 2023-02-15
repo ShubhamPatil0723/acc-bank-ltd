@@ -1,0 +1,8 @@
+Hello, this is a today's report file. 
+                 __________________________________________________________________________________
+                 today newly join customers total is 1 are = [{"id":1,"full_Name":"Priya","age":23,"gender":"Female","email":"abc@gmail.com","phoneNo":981234567,"address":"Acc,Mahape","addhar_Card":"12345678765","pan_Card":"AUB12345","account_type_ID":1,"account_Number":"ACC202348","Balance":5000,"kyc_Status":"Pending","createdAt":"2023-02-15T00:00:00.000Z","updatedAt":"2023-02-15T00:00:00.000Z"}] ,
+                 _________________________________________________________________
+                 newly updated Customers are = [{"id":1,"full_Name":"Priya","age":23,"gender":"Female","email":"abc@gmail.com","phoneNo":981234567,"address":"Acc,Mahape","addhar_Card":"12345678765","pan_Card":"AUB12345","account_type_ID":1,"account_Number":"ACC202348","Balance":5000,"kyc_Status":"Pending","createdAt":"2023-02-15T00:00:00.000Z","updatedAt":"2023-02-15T00:00:00.000Z"}],
+                 _________________________________________________________________
+                 total amount transaction in bank = null 
+                 __________________________________________________________________
